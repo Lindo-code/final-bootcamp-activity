@@ -28,7 +28,9 @@ body {
 a {
   text-decoration: none;
 }
-
+i {
+  color: #2c7566;
+}
 h1 {
   font-family: "Fraunces";
   letter-spacing: 20px;
@@ -71,7 +73,9 @@ li a {
   font-family: "Barlow";
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
+  padding: .5em 1em .5em 1em;
+  border-radius: 50px;
 }
 
 p {
@@ -179,7 +183,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 15em;
+  padding: 2em 2em 10em 2em;
 }
 
 .red {
@@ -264,12 +268,27 @@ p {
   padding: 5em;
   margin-top: 20em;
 }
+
 .icon {
   font-size: 2em;
-}
-.icon:hover {
-  color: white;
+  color: #2c7566;
 }
 
-@media screen and (max-width: 968px) {
+.yellow-line {
+  border-bottom: 5px solid yellow; 
+  width: fit-content;
+}
+
+.red-line {
+  border-bottom: 5px solid red;
+  width: fit-content;
+}
+
+i:hover {
+  color: white;
+}
+.link:hover {
+  color: black;
+  font-family: "Fraunces";
+  background-color: white;
 }
